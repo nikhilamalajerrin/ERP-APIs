@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Terraform
+**/.terraform/
+**/.terraform/providers
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.env
+__pycache__/
+
+# Node (if needed later)
+node_modules/
